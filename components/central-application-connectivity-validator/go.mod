@@ -84,7 +84,7 @@ require (
 
 replace (
 	github.com/containerd/containerd => github.com/containerd/containerd v1.4.11
-	github.com/docker/docker => github.com/docker/docker v20.10.8+incompatible
+	github.com/docker/docker => github.com/docker/docker v20.10.27+incompatible
 	github.com/opencontainers/runc => github.com/opencontainers/runc v1.0.0-rc92
 	golang.org/x/crypto => golang.org/x/crypto v0.4.0
 	golang.org/x/net => golang.org/x/net v0.17.0
