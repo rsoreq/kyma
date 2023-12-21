@@ -7,7 +7,7 @@ require (
 	github.com/google/uuid v1.3.1
 	github.com/gorilla/mux v1.8.0
 	github.com/kelseyhightower/envconfig v1.4.0
-	github.com/kyma-project/kyma/components/application-operator v0.0.0-20230127165033-ec8e43477eca
+	github.com/kyma-project/kyma/components/application-operator e2c22b79a28b
 	github.com/kyma-project/kyma/components/eventing-controller v0.0.0-20231023131930-0990d091c639
 	github.com/nats-io/nats-server/v2 v2.10.3
 	github.com/nats-io/nats.go v1.31.0
