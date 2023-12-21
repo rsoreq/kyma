@@ -4,7 +4,7 @@ go 1.21
 
 require (
 	github.com/gorilla/mux v1.8.0
-	github.com/kyma-project/kyma/common/logging v0.0.0-20230130154909-4c81ab2cee61
+	github.com/kyma-project/kyma/common/logging v0.0.0-20231220133808-e2c22b79a28b
 	github.com/kyma-project/kyma/components/central-application-gateway v0.0.0-20230130154909-4c81ab2cee61
 	github.com/oklog/run v1.1.0
 	github.com/onsi/ginkgo/v2 v2.11.0

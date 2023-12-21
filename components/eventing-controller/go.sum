@@ -97,6 +97,8 @@ github.com/kyma-project/api-gateway v0.0.0-20231025094533-b7f4433b5cac h1:1lgrll
 github.com/kyma-project/api-gateway v0.0.0-20231025094533-b7f4433b5cac/go.mod h1:liAdIi2zvHbrK4K6Xi+pHUz2cnU70QRkhuUqhVF6Hmo=
 github.com/kyma-project/kyma/common/logging v0.0.0-20231025103331-ecda502ad878 h1:O/jsZjI46bCOnTlDKBV1PCDD2wnjol0sleetBX354Pg=
 github.com/kyma-project/kyma/common/logging v0.0.0-20231025103331-ecda502ad878/go.mod h1:JGb5RBi8Uz+RZ/jf54+qA+RqY6uPQBJ8pO1w3KSwm1Q=
+github.com/kyma-project/kyma/common/logging v0.0.0-20231220133808-e2c22b79a28b h1:mYJvj9IKQyQMwHsyO+7tXd/PYLk4WZKnlbxnmTiDHqQ=
+github.com/kyma-project/kyma/common/logging v0.0.0-20231220133808-e2c22b79a28b/go.mod h1:JGb5RBi8Uz+RZ/jf54+qA+RqY6uPQBJ8pO1w3KSwm1Q=
 github.com/mailru/easyjson v0.7.7 h1:UGYAvKxe3sBsEDzO8ZeWOSlIQfWFlxbzLZe7hwFURr0=
 github.com/mailru/easyjson v0.7.7/go.mod h1:xzfreul335JAWq5oZzymOObrkdz5UnU4kGfJJLY9Nlc=
 github.com/matttproud/golang_protobuf_extensions v1.0.4 h1:mmDVorXM7PCGKw94cs5zkfA9PSy5pEvNWRP0ET0TIVo=

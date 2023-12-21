@@ -10,7 +10,7 @@ require (
 	github.com/go-logr/zapr v1.2.4
 	github.com/kelseyhightower/envconfig v1.4.0
 	github.com/kyma-project/api-gateway v0.0.0-20231025094533-b7f4433b5cac
-	github.com/kyma-project/kyma/common/logging v0.0.0-20231025103331-ecda502ad878
+	github.com/kyma-project/kyma/common/logging v0.0.0-20231220133808-e2c22b79a28b
 	github.com/mitchellh/hashstructure/v2 v2.0.2
 	github.com/nats-io/nats-server/v2 v2.10.3
 	github.com/nats-io/nats.go v1.31.0
