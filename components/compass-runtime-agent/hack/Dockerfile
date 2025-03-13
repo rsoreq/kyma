@@ -1,4 +1,4 @@
-FROM golang:1.14
+FROM golang:1.24@sha256:8678013a2add364dc3d5df2acc2b36893fbbd60ebafa5d5149bc22158512f021
 
 ENV GO111MODULE=off
 
