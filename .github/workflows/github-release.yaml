@@ -7,10 +7,10 @@ jobs:
     environment:
       name: release
     container:
-      image: europe-docker.pkg.dev/kyma-project/prod/test-infra/githubrelease:v20230731-ca8ffad9
+      image: europe-docker.pkg.dev/kyma-project/prod/test-infra/githubrelease:v20230731-ca8ffad9@sha256:fd79771f36742f0192c922e197bb41cf5343f0d51f1cf935df05b2984527d89e
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
         with:
           fetch-depth: 0
       - name: Check if not in master
