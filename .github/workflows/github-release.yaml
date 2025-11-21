@@ -10,7 +10,7 @@ jobs:
       image: europe-docker.pkg.dev/kyma-project/prod/test-infra/githubrelease:v20230731-ca8ffad9
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3 # v6
         with:
           fetch-depth: 0
       - name: Check if not in master
