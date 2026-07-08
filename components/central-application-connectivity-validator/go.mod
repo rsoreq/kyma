@@ -1,6 +1,6 @@
 module github.com/kyma-project/kyma/components/central-application-connectivity-validator
 
-go 1.21
+go 1.25
 
 require (
 	github.com/gorilla/mux v1.8.1
@@ -15,7 +15,7 @@ require (
 	go.uber.org/zap v1.27.0
 	k8s.io/apimachinery v0.27.4
 	k8s.io/client-go v0.26.7
-	k8s.io/utils v0.0.0-20230209194617-a36077c30491
+	k8s.io/utils v0.0.0-20260707023825-cf1189d6abe3
 	sigs.k8s.io/controller-runtime v0.14.6
 )
 
