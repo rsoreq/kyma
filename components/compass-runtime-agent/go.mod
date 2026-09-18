@@ -12,8 +12,8 @@ require (
 	github.com/machinebox/graphql v0.2.3-0.20181106130121-3a9253180225
 	github.com/pkg/errors v0.9.1
 	github.com/sirupsen/logrus v1.9.3
-	github.com/stretchr/testify v1.9.0
-	github.com/vrischmann/envconfig v1.3.0
+	github.com/stretchr/testify v1.10.0
+	github.com/vrischmann/envconfig v1.4.1
 	k8s.io/api v0.26.7
 	k8s.io/apimachinery v0.27.4
 	k8s.io/client-go v0.26.7
@@ -91,7 +91,7 @@ require (
 )
 
 replace (
-	github.com/containerd/containerd => github.com/containerd/containerd v1.4.11
+	github.com/containerd/containerd => github.com/containerd/containerd v1.7.35
 	github.com/docker/distribution => github.com/docker/distribution v0.0.0-20191216044856-a8371794149d
 	github.com/docker/docker => github.com/docker/docker v20.10.8+incompatible
 	golang.org/x/crypto => golang.org/x/crypto v0.16.0
