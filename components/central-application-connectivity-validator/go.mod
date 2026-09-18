@@ -6,13 +6,13 @@ require (
 	github.com/gorilla/mux v1.8.1
 	github.com/kyma-project/kyma/common/logging v0.0.0-20230130154909-4c81ab2cee61
 	github.com/kyma-project/kyma/components/central-application-gateway v0.0.0-20230130154909-4c81ab2cee61
-	github.com/oklog/run v1.1.0
+	github.com/oklog/run v1.2.0
 	github.com/onsi/ginkgo/v2 v2.17.3
 	github.com/onsi/gomega v1.33.1
 	github.com/patrickmn/go-cache v2.1.0+incompatible
-	github.com/stretchr/testify v1.9.0
-	github.com/vrischmann/envconfig v1.3.0
-	go.uber.org/zap v1.27.0
+	github.com/stretchr/testify v1.10.0
+	github.com/vrischmann/envconfig v1.4.1
+	go.uber.org/zap v1.28.0
 	k8s.io/apimachinery v0.27.4
 	k8s.io/client-go v0.26.7
 	k8s.io/utils v0.0.0-20230209194617-a36077c30491
@@ -83,7 +83,7 @@ require (
 )
 
 replace (
-	github.com/containerd/containerd => github.com/containerd/containerd v1.4.11
+	github.com/containerd/containerd => github.com/containerd/containerd v1.7.35
 	github.com/docker/docker => github.com/docker/docker v20.10.8+incompatible
 	github.com/opencontainers/runc => github.com/opencontainers/runc v1.1.12
 	golang.org/x/crypto => golang.org/x/crypto v0.16.0
