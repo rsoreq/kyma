@@ -1,13 +1,13 @@
 module github.com/kyma-project/kyma/components/central-application-gateway
 
-go 1.21
+go 1.26.0
 
 require (
 	github.com/gorilla/mux v1.8.1
-	github.com/oklog/run v1.1.0
+	github.com/oklog/run v1.2.0
 	github.com/patrickmn/go-cache v2.1.0+incompatible
-	github.com/stretchr/testify v1.8.4
-	go.uber.org/zap v1.27.0
+	github.com/stretchr/testify v1.12.1
+	go.uber.org/zap v1.28.0
 	k8s.io/api v0.27.4
 	k8s.io/apimachinery v0.27.4
 	k8s.io/client-go v0.27.4
@@ -37,8 +37,9 @@ require (
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
-	github.com/stretchr/objx v0.5.0 // indirect
+	github.com/stretchr/objx v0.5.3 // indirect
 	go.uber.org/multierr v1.10.0 // indirect
+	go.yaml.in/yaml/v3 v3.0.5 // indirect
 	golang.org/x/net v0.19.0 // indirect
 	golang.org/x/oauth2 v0.0.0-20220223155221-ee480838109b // indirect
 	golang.org/x/sys v0.15.0 // indirect
@@ -61,6 +62,6 @@ require (
 replace (
 	golang.org/x/crypto => golang.org/x/crypto v0.16.0
 	golang.org/x/net => golang.org/x/net v0.19.0
-	golang.org/x/sys => golang.org/x/sys v0.15.0
+	golang.org/x/sys => golang.org/x/sys v0.48.0
 	golang.org/x/text => golang.org/x/text v0.14.0
 )
