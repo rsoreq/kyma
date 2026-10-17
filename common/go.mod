@@ -4,7 +4,7 @@ go 1.18
 
 require (
 	github.com/avast/retry-go v2.2.0+incompatible
-	github.com/stretchr/testify v1.7.0
+	github.com/stretchr/testify v1.12.1
 	golang.org/x/tools v0.4.0
 	k8s.io/code-generator v0.18.6
 )
@@ -25,6 +25,7 @@ require (
 	github.com/modern-go/reflect2 v1.0.1 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
+	go.yaml.in/yaml/v3 v3.0.5 // indirect
 	golang.org/x/mod v0.7.0 // indirect
 	golang.org/x/net v0.4.0 // indirect
 	golang.org/x/sys v0.3.0 // indirect
