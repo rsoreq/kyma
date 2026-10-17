@@ -1,4 +1,4 @@
-FROM golang:1.21.5-alpine3.18 as builder
+FROM golang:1.21.5-alpine3.18@sha256:d8b99943fb0587b79658af03d4d4e8b57769b21dcf08a8401352a9f2a7228754 as builder
 
 ARG DOCK_PKG_DIR=/go/src/github.com/kyma-project/kyma/components/central-application-gateway
 WORKDIR $DOCK_PKG_DIR
